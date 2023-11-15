@@ -16,11 +16,11 @@ type Preprocessing struct{}
 
 func (s *Preprocessing) Activities() []spec.Activity {
 	return []spec.Activity{
-		{Name: activities.ExtractPackageName, Execute: activities.NewExtractPackage()},
-		{Name: activities.CheckSipStructureName, Execute: activities.NewCheckSipStructure()},
-		{Name: activities.AllowedFileFormatsName, Execute: activities.NewAllowedFileFormatsActivity()},
-		{Name: activities.MetadataValidationName, Execute: activities.NewMetadataValidationActivity()},
-		{Name: activities.SipCreationName, Execute: activities.NewSipCreationActivity()},
+		{Name: activities.ExtractPackageName, Execute: activities.NewExtractPackage().Execute},
+		{Name: activities.CheckSipStructureName, Execute: activities.NewCheckSipStructure().Execute},
+		{Name: activities.AllowedFileFormatsName, Execute: activities.NewAllowedFileFormatsActivity().Execute},
+		{Name: activities.MetadataValidationName, Execute: activities.NewMetadataValidationActivity().Execute},
+		{Name: activities.SipCreationName, Execute: activities.NewSipCreationActivity().Execute},
 	}
 }
 
