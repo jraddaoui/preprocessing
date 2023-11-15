@@ -27,7 +27,7 @@ func (s *Preprocessing) Activities() []spec.Activity {
 func (s *Preprocessing) Execute(ctx workflow.Context, params spec.Params) (spec.Result, error) {
 	result := spec.Result{}
 	preProcCtx := workflow.WithActivityOptions(ctx, workflow.ActivityOptions{
-		StartToCloseTimeout: time.Second * 5,
+		StartToCloseTimeout: time.Hour,
 		RetryPolicy: &temporal.RetryPolicy{
 			InitialInterval:    time.Second,
 			BackoffCoefficient: 2,
