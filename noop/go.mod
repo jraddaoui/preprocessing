@@ -2,10 +2,8 @@ module github.com/jraddaoui/preprocessing/noop
 
 go 1.21.4
 
-replace github.com/jraddaoui/preprocessing/spec => ../spec
-
 require (
-	github.com/jraddaoui/preprocessing/spec v0.0.0-00010101000000-000000000000
+	github.com/jraddaoui/preprocessing/spec v0.0.0-20231115013752-88a71483e759
 	go.temporal.io/sdk v1.25.1
 )
 
