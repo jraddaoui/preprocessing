@@ -1,9 +1,9 @@
-package preprocessing
+package noop
 
 import (
 	"go.temporal.io/sdk/workflow"
 
-	spec "github.com/jraddaoui/preprocessing/spec"
+	"github.com/jraddaoui/preprocessing/spec"
 )
 
 var _ spec.Preprocessing = (*Preprocessing)(nil)

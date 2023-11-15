@@ -1,4 +1,4 @@
-package preprocessingspec
+package spec
 
 import "go.temporal.io/sdk/workflow"
 
