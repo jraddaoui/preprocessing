@@ -3,7 +3,7 @@ module github.com/jraddaoui/preprocessing/noop
 go 1.21.4
 
 require (
-	github.com/jraddaoui/preprocessing/spec v0.0.0-20231115013752-88a71483e759
+	github.com/jraddaoui/preprocessing/spec v0.0.0-20231115025438-2707f86b80bc
 	go.temporal.io/sdk v1.25.1
 )
 
