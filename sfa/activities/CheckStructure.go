@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jraddaoui/preprocessing/sfa/sip"
+	"github.com/jraddaoui/preprocessing/preprocessing/sip"
 )
 
 const CheckSipStructureName = "check-sip-structure"

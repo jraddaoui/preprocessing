@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jraddaoui/preprocessing/sfa/fformat"
-	"github.com/jraddaoui/preprocessing/sfa/sip"
+	"github.com/jraddaoui/preprocessing/preprocessing/fformat"
+	"github.com/jraddaoui/preprocessing/preprocessing/sip"
 )
 
 const AllowedFileFormatsName = "allowed-file-formats"

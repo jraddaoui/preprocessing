@@ -6,7 +6,7 @@ import (
 	"go.temporal.io/sdk/temporal"
 	"go.temporal.io/sdk/workflow"
 
-	"github.com/jraddaoui/preprocessing/sfa/activities"
+	"github.com/jraddaoui/preprocessing/preprocessing/activities"
 	"github.com/jraddaoui/preprocessing/spec"
 )
 

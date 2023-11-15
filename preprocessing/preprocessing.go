@@ -1,4 +1,4 @@
-package noop
+package preprocessing
 
 import (
 	"go.temporal.io/sdk/workflow"

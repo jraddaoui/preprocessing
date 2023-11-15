@@ -12,7 +12,7 @@ import (
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
 
-	"github.com/jraddaoui/preprocessing/sfa/activities"
+	"github.com/jraddaoui/preprocessing/preprocessing/activities"
 )
 
 func TestExtractPackage(t *testing.T) {

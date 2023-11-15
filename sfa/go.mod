@@ -1,4 +1,4 @@
-module github.com/jraddaoui/preprocessing/sfa
+module github.com/jraddaoui/preprocessing/preprocessing
 
 go 1.21.4
 

@@ -5,7 +5,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/jraddaoui/preprocessing/sfa/fformat"
+	"github.com/jraddaoui/preprocessing/preprocessing/fformat"
 )
 
 func TestSiegfriedEmbed(t *testing.T) {
